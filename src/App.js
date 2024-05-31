@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+import React, { useEffect } from 'react';
 import './App.css';
+import LandingPage from './components/LandingPage';
+import SwayWaySection from './components/SwayWaySection';
+import NewSection from './components/NewSection'; // Import the new section
 
 function App() {
+  useEffect(() => {
+    const handleScroll = () => {
+      const landingPage = document.querySelector('.landing-page');
+      if (window.scrollY > 0) {
+        landingPage.classList.add('animate-out');
+      } else {
+        landingPage.classList.remove('animate-out');
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <LandingPage />
+      <SwayWaySection />
+      <NewSection /> {/* Add the new section here */}
     </div>
   );
 }
