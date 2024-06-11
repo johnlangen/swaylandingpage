@@ -1,0 +1,141 @@
+@font-face {
+    font-family: 'Vance';
+    src: url('../assets/fonts/vance-bold.otf') format('opentype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'Vance';
+    src: url('../assets/fonts/vance-regular.otf') format('opentype');
+    font-weight: normal;
+  }
+  
+  :root {
+    --grey: #F6F7F6;
+    --secondary-green: #B5CFBF;
+    --green: #113D33;
+    --dark-green: #223B38;
+  }
+  
+  body {
+    background: var(--grey, #F6F7F6);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .connect-section {
+    padding: 20px 40px;
+    background: var(--grey);
+    font-family: 'Vance', sans-serif;
+  }
+  
+  .connect-content {
+    display: flex;
+    justify-content: flex-start; /* Move sections to the right */
+    align-items: flex-start;
+    margin-bottom: 20px;
+    position: relative;
+    top: -30px; /* Move all elements up */
+    margin-left: 20%; /* Move all elements to the right */
+  }
+  
+  .connect-info-section {
+    flex: 1;
+    padding-right: 40px; /* Adjust as needed */
+  }
+  
+  .connect-info-heading {
+    color: #4A776D;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .connect-info-item {
+    color: #113D33;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .contact-section {
+    flex: 2;
+    padding-left: 40px; /* Ensure proper spacing */
+  }
+  
+  .contact-info-heading {
+    color: #4A776D;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  
+  .contact-info-item {
+    color: #113D33;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+  
+  .connect-form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .connect-form-group input,
+  .connect-form-group textarea {
+    width: calc(50% - 10px); /* Adjust width to account for gap */
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid var(--green);
+    background: none;
+    font-family: 'Vance', sans-serif;
+  }
+  
+  textarea {
+    width: 100%;
+    resize: none;
+    height: 100px;
+  }
+  
+  .connect-submit-button {
+    background-color: var(--green);
+    color: var(--grey);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: block;
+  }
+  
+  .connect-submit-button:hover {
+    background-color: var(--secondary-green);
+  }
+  
+  .connect-footer {
+    position: relative;
+    width: 100%;
+    height: 150px; /* Adjust the height as needed */
+    margin-top: 20px;
+  }
+  
+  .connect-footer-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .connect-footer-logo {
+    position: absolute;
+    bottom: 50px; /* Adjust positioning as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px; /* Adjust size as needed */
+  }
+  

@@ -1,29 +1,58 @@
-/* src/App.css */
+/* Example of App.css, ensure no unwanted global styles */
 
-.App {
-  text-align: center;
-  font-family: Arial, sans-serif;
+@font-face {
+  font-family: 'Vance';
+  src: url('./assets/fonts/vance-bold.otf') format('opentype');
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  padding: 20px;
-  color: white;
+@font-face {
+  font-family: 'Vance';
+  src: url('./assets/fonts/vance-regular.otf') format('opentype');
+  font-weight: normal;
 }
 
-main {
-  padding: 20px;
+:root {
+  --grey: #F6F7F6;
+  --secondary-green: #B5CFBF;
+  --green: #113D33;
+  --dark-green: #223B38;
 }
 
-section {
-  margin-bottom: 20px;
+body {
+  background: var(--grey);
+  margin: 0;
+  padding: 0;
+  font-family: 'Vance', sans-serif;
 }
 
-footer {
-  background-color: #282c34;
-  color: white;
-  padding: 10px 0;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+h1, h2, h3, h4, h5, h6 {
+  color: var(--dark-green);
+}
+
+p {
+  color: var(--green);
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Scoped styles for specific components */
+.landing-page-description {
+  color: var(--grey);
+  font-size: 35px;
+  font-family: 'Vance';
+  font-weight: 400;
+  line-height: 42px;
+  word-wrap: break-word;
+}
+
+.join-team-section .description {
+  color: var(--green);
+  font-size: 35px;
+  font-family: 'Vance';
+  font-weight: 400;
+  line-height: 42px;
+  word-wrap: break-word;
+  text-align: left;
+  text-shadow: none;
 }

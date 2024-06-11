@@ -18,7 +18,7 @@ function SwayWaySection() {
       <p className="section-description">
         Restore Your Body. Refresh Your Mind.
       </p>
-      <div className="divider"></div>
+      <div className="divider"></div> {/* Add the second dotted line here */}
     </div>
   );
 }

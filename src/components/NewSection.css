@@ -18,12 +18,13 @@
   
   .new-section {
     background: var(--grey, #F6F7F6);
-    padding: 50px 20px 50px 20px;
+    padding: 50px 20px;
     text-align: left;
-    font-family: 'Vance', sans-serif; /* Apply the custom font */
+    font-family: 'Vance', sans-serif;
     position: relative;
     z-index: 0;
   }
+  
   
   .divider {
     width: 1281px;

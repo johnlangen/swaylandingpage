@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Vance';
+    src: url('../assets/fonts/vance-bold.otf') format('opentype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'Vance';
+    src: url('../assets/fonts/vance-regular.otf') format('opentype');
+    font-weight: normal;
+  }
+  
+  :root {
+    --grey: #F6F7F6;
+    --secondary-green: #B5CFBF;
+    --green: #113D33;
+  }
+  
+  body {
+    background: var(--grey, #F6F7F6);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .sway-storefront {
+    position: relative;
+    background-color: var(--grey, #F6F7F6);
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .storefront-image {
+    width: 90%; /* Increase width to make the image bigger */
+    height: auto;
+    max-height: 100vh; /* Ensure the image doesn't exceed the viewport height */
+    border-radius: 40px;
+  }
+  

@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Vance';
+    src: url('../assets/fonts/vance-bold.otf') format('opentype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'Vance';
+    src: url('../assets/fonts/vance-regular.otf') format('opentype');
+    font-weight: normal;
+  }
+  
+  :root {
+    --grey: #F6F7F6;
+    --secondary-green: #B5CFBF;
+    --green: #113D33;
+    --dark-green: #223B38;
+    --text-color-dark: #113D33;
+    --text-color-light: #4A776D;
+    --text-color-accent: #ECBA90;
+  }
+  
+  body {
+    background: var(--grey, #F6F7F6);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .our-services {
+    background: var(--grey, #F6F7F6);
+    padding: 20px 80px; /* Increase padding to ensure the cards are further from the sides */
+    text-align: center;
+    font-family: 'Vance', sans-serif;
+    position: relative;
+    z-index: 0;
+  }
+  
+  .our-services-heading {
+    margin-bottom: 60px; /* Increase space between heading and cards */
+    font-size: 65px;
+    font-family: 'Vance', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 70px;
+    color: var(--dark-green);
+  }
+  
+  .our-services-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Add gap between cards */
+    flex-wrap: wrap;
+  }
+  
+  .our-services-card {
+    width: 28%; /* Reduce width */
+    height: 550px; /* Increase height to maintain aspect ratio */
+    margin-bottom: 20px;
+    perspective: 1000px;
+  }
+  
+  .our-services-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+  
+  .our-services-card:hover .our-services-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .our-services-card-front,
+  .our-services-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  .our-services-card-front {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Ensure content does not overflow */
+  }
+  
+  .our-services-card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image covers the card without squishing */
+    border-radius: 30px;
+  }
+  
+  .our-services-card-back {
+    transform: rotateY(180deg);
+    background: #EBE7DF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    overflow: hidden; /* Ensure content does not overflow */
+  }
+  
+  .our-services-card-back-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-family: 'Vance', sans-serif;
+    font-weight: 400;
+    line-height: 42px;
+    word-wrap: break-word;
+    overflow: hidden; /* Ensure text does not overflow */
+  }
+  
+  .dark-text {
+    color: var(--text-color-dark);
+  }
+  
+  .light-text {
+    color: var(--text-color-light);
+  }
+  
+  .accent-text {
+    color: var(--text-color-accent);
+  }
+  
+  .our-services-arrow-forward {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    color: var(--text-color-dark);
+    transition: color 0.3s, transform 0.3s;
+    z-index: 3;
+  }
+  
+  .our-services-arrow-back {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    color: var(--text-color-dark);
+    transition: color 0.3s, transform 0.3s;
+    z-index: 3;
+  }
+  
+  .our-services-arrow-forward:hover, .our-services-arrow-back:hover {
+    color: var(--secondary-green);
+    transform: scale(1.1);
+  }
+  

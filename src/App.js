@@ -1,32 +1,23 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import './App.css';
 import LandingPage from './components/LandingPage';
 import SwayWaySection from './components/SwayWaySection';
-import NewSection from './components/NewSection'; // Import the new section
+import SwayStoreFront from './components/SwayStoreFront';
+import OurServices from './components/OurServices';
+import JoinUsSection from './components/JoinUsSection';
+import ConnectSection from './components/ConnectSection';
+import JoinTeamSection from './components/JoinTeamSection';
 
 function App() {
-  useEffect(() => {
-    const handleScroll = () => {
-      const landingPage = document.querySelector('.landing-page');
-      if (window.scrollY > 0) {
-        landingPage.classList.add('animate-out');
-      } else {
-        landingPage.classList.remove('animate-out');
-      }
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
-
   return (
     <div className="App">
       <LandingPage />
       <SwayWaySection />
-      <NewSection /> {/* Add the new section here */}
+      <SwayStoreFront />
+      <OurServices />
+      <JoinUsSection />
+      <JoinTeamSection />
+      <ConnectSection /> {/* Add the new section here */}
     </div>
   );
 }

@@ -1,111 +1,145 @@
 @font-face {
-    font-family: 'Vance';
-    src: url('../assets/fonts/vance-bold.otf') format('opentype');
-    font-weight: bold;
-  }
-  
-  @font-face {
-    font-family: 'Vance';
-    src: url('../assets/fonts/vance-regular.otf') format('opentype');
-    font-weight: normal;
-  }
-  
-  :root {
-    --grey: #F6F7F6;
-    --secondary-green: #B5CFBF;
-    --green: #113D33;
-  }
-  
-  body {
-    background: var(--grey, #F6F7F6); /* Background color of the whole page */
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevent horizontal overflow */
-  }
-  
-  .landing-page {
-    position: relative;
-    background-image: 
-      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url('../assets/images/background-image.png'); /* Ensure this path is correct */
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Full viewport height */
-    width: 100%;
-    text-align: center;
-    color: var(--grey, #F6F7F6);
-    overflow: hidden;
-    font-family: 'Vance', sans-serif; /* Apply the custom font */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 50px; /* Round bottom left corner */
-    border-bottom-right-radius: 50px; /* Round bottom right corner */
-    z-index: 1;
-    transition: transform 1s ease-out; /* Add transition for animation */
-  }
-  
-  .landing-page.animate-out {
-    transform: translateY(-100%);
-  }
-  
-  .landing-header .logo {
-    width: 500px; /* Logo size */
-    margin-bottom: 20px;
-  }
-  
-  .landing-content {
-    max-width: 1063px; /* Ensure this is wide enough for the text */
-    margin: 0 auto;
-  }
-  
-  .main-heading {
-    font-size: 65px; /* Font size for the main heading */
-    font-weight: 400;
-    line-height: 70px; /* 107.692% */
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  
-  .sub-heading {
-    font-size: 50px; /* Font size for sub-heading */
-    font-weight: 400;
-    line-height: 68px; /* 136% */
-    margin-bottom: 20px;
-  }
-  
-  .description {
-    font-size: 35px; /* Font size for description */
-    font-weight: 400;
-    line-height: 42px; /* 120% */
-    margin-bottom: 40px;
-    max-width: 773px;
-    margin: 0 auto;
-  }
-  
-  .email-signup {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 15px;
-    border: 2px solid var(--grey, #F6F7F6);
-    border-radius: 50px;
-    background-color: rgba(0, 0, 0, 0.5);
-    margin-top: 40px; /* Position a bit lower */
-  }
-  
-  .email-input {
-    width: 100%;
-    border: none;
-    outline: none;
-    background: transparent;
-    color: #B5CFBF;
-    font-size: 1.2em;
-    font-family: 'Vance', sans-serif;
-    padding: 10px;
-  }
-  
+  font-family: 'Vance';
+  src: url('../assets/fonts/vance-bold.otf') format('opentype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Vance';
+  src: url('../assets/fonts/vance-regular.otf') format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  --grey: #F6F7F6;
+  --secondary-green: #B5CFBF;
+  --green: #113D33;
+  --landing-text-color: #F6F7F6; /* Define the color for text */
+}
+
+body {
+  background: var(--grey, #F6F7F6); /* Background color of the whole page */
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal overflow */
+}
+
+.landing-page {
+  position: relative;
+  background-image: 
+    url('../assets/images/background-image.png'); /* Ensure this path is correct */
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  text-align: center;
+  color: var(--landing-text-color); /* Ensure the correct color is applied */
+  overflow: hidden;
+  font-family: 'Vance', sans-serif; /* Apply the custom font */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 50px; /* Round bottom left corner */
+  border-bottom-right-radius: 50px; /* Round bottom right corner */
+  z-index: 1;
+}
+
+.gradient-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Soft dark overlay */
+  z-index: 2; /* Ensure it is above the background image but below the logo and text */
+}
+
+.landing-header {
+  z-index: 3; /* Ensure the logo is above the gradient overlay */
+}
+
+.landing-header .logo {
+  width: 300px; /* Adjust the size to make the logo smaller */
+  margin-bottom: 20px;
+}
+
+.landing-content {
+  max-width: 1063px; /* Ensure this is wide enough for the text */
+  margin: 0 auto;
+  z-index: 3; /* Ensure it is above the gradient overlay */
+  padding-top: 100px; /* Adjust padding to create space for the logo */
+}
+
+.main-heading {
+  font-size: 65px; /* Font size for the main heading */
+  font-weight: 400;
+  line-height: 70px; /* 107.692% */
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
+  color: var(--landing-text-color); /* Ensure the correct color is applied */
+}
+
+.sub-heading {
+  font-size: 50px; /* Font size for sub-heading */
+  font-weight: 400;
+  line-height: 68px; /* 136% */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
+  color: var(--landing-text-color); /* Ensure the correct color is applied */
+}
+
+.landing-description {
+  font-size: 35px; /* Font size for description */
+  font-weight: 400;
+  line-height: 42px; /* 120% */
+  margin-bottom: 40px;
+  max-width: 773px;
+  margin: 0 auto;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add text shadow */
+  color: var(--landing-text-color); /* Ensure the correct color is applied */
+}
+
+.email-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 15px;
+  border: 2px solid var(--grey, #F6F7F6);
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  margin-top: 40px; /* Position a bit lower */
+  z-index: 3; /* Ensure it is above the gradient overlay */
+}
+
+.email-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #B5CFBF;
+  font-size: 1.2em;
+  font-family: 'Vance', sans-serif;
+  padding: 10px;
+}
+
+.submit-button {
+  background-color: var(--green);
+  color: var(--grey);
+  border: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  font-family: 'Vance', sans-serif;
+  cursor: pointer;
+  margin-left: 10px; /* Space between input and button */
+  transition: background-color 0.3s;
+}
+
+.submit-button:hover {
+  background-color: var(--secondary-green);
+}

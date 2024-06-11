@@ -4,17 +4,7 @@ import './NewSection.css';
 function NewSection() {
   return (
     <div className="new-section">
-      <div className="divider"></div>
-      <h2 className="section-heading">New Section</h2>
-      <p className="section-description">
-        This is the content of the new section. Add more details here. <br />
-        This is the content of the new section. Add more details here. <br />
-        This is the content of the new section. Add more details here. <br />
-        This is the content of the new section. Add more details here. <br />
-        This is the content of the new section. Add more details here. <br />
-        This is the content of the new section. Add more details here. <br />
-        This is the content of the new section. Add more details here. <br />
-      </p>
+      <img style={{width: '100%', height: '100%', borderRadius: 40}} src="https://via.placeholder.com/1436x800" alt="New Section Placeholder" />
     </div>
   );
 }
