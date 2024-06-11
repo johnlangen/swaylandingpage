@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/swaylandingpage/static/css/main.eb350bc3.css",
-    "main.js": "/swaylandingpage/static/js/main.ce6debac.js",
+    "main.js": "/swaylandingpage/static/js/main.0ad207ee.js",
     "static/js/453.b7ccda34.chunk.js": "/swaylandingpage/static/js/453.b7ccda34.chunk.js",
     "static/media/greenbackground.png": "/swaylandingpage/static/media/greenbackground.541e21bd45110165e7f8.png",
     "static/media/storefront.png": "/swaylandingpage/static/media/storefront.d8552c0e670b56f9add5.png",
@@ -20,11 +20,11 @@
     "static/media/vance-bold.otf": "/swaylandingpage/static/media/vance-bold.688a0301f4f8d3b74946.otf",
     "index.html": "/swaylandingpage/index.html",
     "main.eb350bc3.css.map": "/swaylandingpage/static/css/main.eb350bc3.css.map",
-    "main.ce6debac.js.map": "/swaylandingpage/static/js/main.ce6debac.js.map",
+    "main.0ad207ee.js.map": "/swaylandingpage/static/js/main.0ad207ee.js.map",
     "453.b7ccda34.chunk.js.map": "/swaylandingpage/static/js/453.b7ccda34.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb350bc3.css",
-    "static/js/main.ce6debac.js"
+    "static/js/main.0ad207ee.js"
   ]
 }
