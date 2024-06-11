@@ -1,18 +1,30 @@
 {
   "files": {
-    "main.css": "/swaylandingpage/static/css/main.6f205ccd.css",
-    "main.js": "/swaylandingpage/static/js/main.d95896ce.js",
+    "main.css": "/swaylandingpage/static/css/main.96493d27.css",
+    "main.js": "/swaylandingpage/static/js/main.586703b4.js",
     "static/js/453.b7ccda34.chunk.js": "/swaylandingpage/static/js/453.b7ccda34.chunk.js",
-    "static/media/background-image.png": "/swaylandingpage/static/media/background-image.2133f38d88108f06feed.png",
+    "static/media/greenbackground.png": "/swaylandingpage/static/media/greenbackground.541e21bd45110165e7f8.png",
+    "static/media/storefront.png": "/swaylandingpage/static/media/storefront.d8552c0e670b56f9add5.png",
+    "static/media/11.png": "/swaylandingpage/static/media/11.8a38d78f55f7b3e6bec3.png",
+    "static/media/footer.png": "/swaylandingpage/static/media/footer.38d447399bc25fcc7396.png",
+    "static/media/6.png": "/swaylandingpage/static/media/6.9609437a2b27d25e03a9.png",
+    "static/media/10.png": "/swaylandingpage/static/media/10.d2b643b0c1c4bf9df8b0.png",
+    "static/media/3.png": "/swaylandingpage/static/media/3.12247dcd6936e86f6a4b.png",
+    "static/media/1.png": "/swaylandingpage/static/media/1.4d9818926714dc700d46.png",
+    "static/media/gradient.png": "/swaylandingpage/static/media/gradient.bb9b0709ca88d427ae96.png",
+    "static/media/2.png": "/swaylandingpage/static/media/2.853ba7c4419f9bc6437d.png",
+    "static/media/background-image.png": "/swaylandingpage/static/media/background-image.5161c6a619def0764506.png",
+    "static/media/4.png": "/swaylandingpage/static/media/4.130335ab2227eafc5eae.png",
+    "static/media/5.png": "/swaylandingpage/static/media/5.27a342a79639d61bdfbd.png",
     "static/media/vance-regular.otf": "/swaylandingpage/static/media/vance-regular.5ccb3153caca62cd8431.otf",
     "static/media/vance-bold.otf": "/swaylandingpage/static/media/vance-bold.688a0301f4f8d3b74946.otf",
     "index.html": "/swaylandingpage/index.html",
-    "main.6f205ccd.css.map": "/swaylandingpage/static/css/main.6f205ccd.css.map",
-    "main.d95896ce.js.map": "/swaylandingpage/static/js/main.d95896ce.js.map",
+    "main.96493d27.css.map": "/swaylandingpage/static/css/main.96493d27.css.map",
+    "main.586703b4.js.map": "/swaylandingpage/static/js/main.586703b4.js.map",
     "453.b7ccda34.chunk.js.map": "/swaylandingpage/static/js/453.b7ccda34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f205ccd.css",
-    "static/js/main.d95896ce.js"
+    "static/css/main.96493d27.css",
+    "static/js/main.586703b4.js"
   ]
 }
