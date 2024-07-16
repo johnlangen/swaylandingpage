@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.fb7c0d33.css",
-    "main.js": "/static/js/main.b2e9dbfb.js",
+    "main.css": "/static/css/main.024b06be.css",
+    "main.js": "/static/js/main.3d168aae.js",
     "static/js/453.b7ccda34.chunk.js": "/static/js/453.b7ccda34.chunk.js",
     "static/media/greenbackground.png": "/static/media/greenbackground.541e21bd45110165e7f8.png",
-    "static/media/background-image2.png": "/static/media/background-image2.7e3e1e2e909719552656.png",
+    "static/media/background1.png": "/static/media/background1.5a78730d3e14a474f98a.png",
+    "static/media/background2.png": "/static/media/background2.c2a91ceb71f0b2daf6c0.png",
     "static/media/storefront.png": "/static/media/storefront.d8552c0e670b56f9add5.png",
     "static/media/11.png": "/static/media/11.8a38d78f55f7b3e6bec3.png",
     "static/media/footer.png": "/static/media/footer.38d447399bc25fcc7396.png",
@@ -18,13 +19,14 @@
     "static/media/5.png": "/static/media/5.27a342a79639d61bdfbd.png",
     "static/media/vance-regular.otf": "/static/media/vance-regular.5ccb3153caca62cd8431.otf",
     "static/media/vance-bold.otf": "/static/media/vance-bold.688a0301f4f8d3b74946.otf",
+    "static/media/logo2.png": "/static/media/logo2.e5fab80c244daaacf912.png",
     "index.html": "/index.html",
-    "main.fb7c0d33.css.map": "/static/css/main.fb7c0d33.css.map",
-    "main.b2e9dbfb.js.map": "/static/js/main.b2e9dbfb.js.map",
+    "main.024b06be.css.map": "/static/css/main.024b06be.css.map",
+    "main.3d168aae.js.map": "/static/js/main.3d168aae.js.map",
     "453.b7ccda34.chunk.js.map": "/static/js/453.b7ccda34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb7c0d33.css",
-    "static/js/main.b2e9dbfb.js"
+    "static/css/main.024b06be.css",
+    "static/js/main.3d168aae.js"
   ]
 }
