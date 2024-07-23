@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.024b06be.css",
-    "main.js": "/static/js/main.3d168aae.js",
+    "main.css": "/static/css/main.7fc15d90.css",
+    "main.js": "/static/js/main.5e395f49.js",
     "static/js/453.b7ccda34.chunk.js": "/static/js/453.b7ccda34.chunk.js",
+    "static/media/logo.gif": "/static/media/logo.3a616213cc4af74c7d01.gif",
     "static/media/greenbackground.png": "/static/media/greenbackground.541e21bd45110165e7f8.png",
     "static/media/background1.png": "/static/media/background1.5a78730d3e14a474f98a.png",
     "static/media/background2.png": "/static/media/background2.c2a91ceb71f0b2daf6c0.png",
@@ -19,14 +20,13 @@
     "static/media/5.png": "/static/media/5.27a342a79639d61bdfbd.png",
     "static/media/vance-regular.otf": "/static/media/vance-regular.5ccb3153caca62cd8431.otf",
     "static/media/vance-bold.otf": "/static/media/vance-bold.688a0301f4f8d3b74946.otf",
-    "static/media/logo2.png": "/static/media/logo2.e5fab80c244daaacf912.png",
     "index.html": "/index.html",
-    "main.024b06be.css.map": "/static/css/main.024b06be.css.map",
-    "main.3d168aae.js.map": "/static/js/main.3d168aae.js.map",
+    "main.7fc15d90.css.map": "/static/css/main.7fc15d90.css.map",
+    "main.5e395f49.js.map": "/static/js/main.5e395f49.js.map",
     "453.b7ccda34.chunk.js.map": "/static/js/453.b7ccda34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.024b06be.css",
-    "static/js/main.3d168aae.js"
+    "static/css/main.7fc15d90.css",
+    "static/js/main.5e395f49.js"
   ]
 }
