@@ -1,12 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5ee783f.css",
-    "main.js": "/static/js/main.5e395f49.js",
+    "main.css": "/static/css/main.3966f9d2.css",
+    "main.js": "/static/js/main.dc1b33ac.js",
     "static/js/453.b7ccda34.chunk.js": "/static/js/453.b7ccda34.chunk.js",
     "static/media/logo.gif": "/static/media/logo.3a616213cc4af74c7d01.gif",
     "static/media/greenbackground.png": "/static/media/greenbackground.541e21bd45110165e7f8.png",
-    "static/media/background1.png": "/static/media/background1.5a78730d3e14a474f98a.png",
-    "static/media/background2.png": "/static/media/background2.c2a91ceb71f0b2daf6c0.png",
     "static/media/storefront.png": "/static/media/storefront.d8552c0e670b56f9add5.png",
     "static/media/11.png": "/static/media/11.8a38d78f55f7b3e6bec3.png",
     "static/media/footer.png": "/static/media/footer.38d447399bc25fcc7396.png",
@@ -21,12 +19,12 @@
     "static/media/vance-regular.otf": "/static/media/vance-regular.5ccb3153caca62cd8431.otf",
     "static/media/vance-bold.otf": "/static/media/vance-bold.688a0301f4f8d3b74946.otf",
     "index.html": "/index.html",
-    "main.b5ee783f.css.map": "/static/css/main.b5ee783f.css.map",
-    "main.5e395f49.js.map": "/static/js/main.5e395f49.js.map",
+    "main.3966f9d2.css.map": "/static/css/main.3966f9d2.css.map",
+    "main.dc1b33ac.js.map": "/static/js/main.dc1b33ac.js.map",
     "453.b7ccda34.chunk.js.map": "/static/js/453.b7ccda34.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5ee783f.css",
-    "static/js/main.5e395f49.js"
+    "static/css/main.3966f9d2.css",
+    "static/js/main.dc1b33ac.js"
   ]
 }
